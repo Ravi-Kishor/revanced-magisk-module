@@ -22,17 +22,17 @@ json_get() {
 
 get_prebuilts() {
 	echo "Getting prebuilts"
-	RV_CLI_URL=$(req https://api.github.com/repos/j-hc/revanced-cli/releases/latest - | json_get 'browser_download_url')
+	RV_CLI_URL=$(req https://api.github.com/repos/inotia00/revanced-cli/releases/latest - | json_get 'browser_download_url')
 	RV_CLI_JAR="${TEMP_DIR}/${RV_CLI_URL##*/}"
 	log "CLI: ${RV_CLI_URL##*/}"
 
-	RV_INTEGRATIONS_URL=$(req https://api.github.com/repos/revanced/revanced-integrations/releases/latest - | json_get 'browser_download_url')
+	RV_INTEGRATIONS_URL=$(req https://api.github.com/repos/inotia00/revanced-integrations/releases/latest - | json_get 'browser_download_url')
 	RV_INTEGRATIONS_APK=${RV_INTEGRATIONS_URL##*/}
 	RV_INTEGRATIONS_APK="${RV_INTEGRATIONS_APK%.apk}-$(cut -d/ -f8 <<<"$RV_INTEGRATIONS_URL").apk"
 	log "Integrations: $RV_INTEGRATIONS_APK"
 	RV_INTEGRATIONS_APK="${TEMP_DIR}/${RV_INTEGRATIONS_APK}"
 
-	RV_PATCHES=$(req https://api.github.com/repos/revanced/revanced-patches/releases/latest -)
+	RV_PATCHES=$(req https://api.github.com/repos/inotia00/revanced-patches/releases/latest -)
 	RV_PATCHES_CHANGELOG=$(echo "$RV_PATCHES" | json_get 'body' | sed 's/\(\\n\)\+/\\n/g')
 	RV_PATCHES_URL=$(echo "$RV_PATCHES" | json_get 'browser_download_url' 'jar')
 	RV_PATCHES_JAR="${TEMP_DIR}/${RV_PATCHES_URL##*/}"
