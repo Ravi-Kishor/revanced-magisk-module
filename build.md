@@ -1,28 +1,40 @@
-CLI: revanced-cli-2.15.2-all.jar  
-Integrations: app-release-unsigned-v0.71.1.apk  
-Patches: revanced-patches-2.111.4.jar  
+CLI: revanced-cli-2.21.0-all.jar  
+Integrations: revanced-integrations-0.99.19.apk  
+Patches: revanced-patches-2.164.18.jar  
 
 YouTube
 ==
-- Crowdin Translation Update
-`French`, `Polish`
+- fix(return-youtube-dislike): dislike count gets still removed after pressing like https://github.com/inotia00/ReVanced_Extended/issues/281
+- refactor(default-video-quality): improve the patch method
+- refactor(enable-old-quality-layout): improve the patch method
+- refactor(litho): minor optimization (also fix https://github.com/inotia00/ReVanced_Extended/issues/406)
+- refactor(litho): some button container settings now match with the official ReVanced's source code
+- refactor: ReVanced settings UI (remove summary and PreferenceScreen segmentation) https://github.com/inotia00/ReVanced_Extended/issues/249
+- crowdin translation update
+`Arabic`, `Chinese Simplified`, `French`, `German`, `Italian`, `Japanese`, `Korean`, `Portuguese (Brazilian)`, `Russian`, `Russian`, `Spanish`, `Turkish`, `Vietnamese`
+
 
 YouTube Music
 ==
-- Crowdin Translation Update
-`Bengali`
+- add `custom-branding-music-mmt` patch https://github.com/inotia00/revanced-patches/pull/9
+
 
 ETC
 ==
-- Added Support YouTube v17.45.36
+- add support YouTube v18.08.39
+- drop support YouTube v18.08.38
+- build: update dependencies (patcher, gradle wrapper)
 
-※ **Patches are not compatible after `YouTube v17.46.xx`**! Be sure to use the recommended version.
 
-※ If you want to contribute to the translation, refer this [documentations](https://telegra.ph/How-to-contribute-to-Crowdin-translations-via-upload-of-stringsxml-file-11-10)
-※ Please refer to the [documentations](https://github.com/inotia00/revanced-documentation/wiki/Method-3.-Using-official-ReVanced-Manager-(Android)) for a guide to building ReVanced Extended using the official ReVanced Manager.
+※ Compatible ReVanced Manager: v0.0.56
+※ If you want to contribute to the translation, refer below
+
+[Crowdin translation]
+- [European Countries](https://crowdin.com/project/revancedextendedeu)
+- [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-Music (arm-v7a): 5.34.51  
+YouTube: 18.08.39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
