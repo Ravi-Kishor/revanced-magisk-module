@@ -1,95 +1,37 @@
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 compression-level = 9         # compression level for module zips. between 1 and 9
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1             # max number of concurrent building jobs
-build-mindetach-module = false
+build-mindetach-module = true
 
-# add 'enabled = false' for not patching a specific app or remove its entry
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+# extended
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "ReVanced Extended"
 
 [YouTube]
-enabled = false
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # whitespace seperated list of patches to include
-version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
-exclusive-patches = false                                             # excludes all patches by default
+build-mode = "apk"
+excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layout-switch translations custom-package-name custom-playback-speed custom-branding-icon-afn-blue custom-branding-icon-afn-red custom-branding-icon-revancify custom-branding-name custom-branding-name hide-my-mix"
+included-patches = "materialyou"
+version = "auto"
+exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "ytrv-magisk"
+
+[Music-arm]
+build-mode = "apk"
+app-name = "YT-Music"
+excluded-patches = "custom-branding compact-header tasteBuilder-remover translations-music custom-branding-music-afn-blue custom-branding-music-afn-red custom-branding-music-revancify"
+included-patches = "optimize-resource-music"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v7a"
 
 [Music-arm64]
 build-mode = "none"
-app-name = "Music"
+app-name = "YT-Music"
 excluded-patches = ""
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytmusicrv-magisk"
-arch = "arm64-v8a"
-
-[Music-arm]
-build-mode = "none"
-app-name = "Music"
-excluded-patches = ""
-included-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytmusicrv-arm-magisk"
-arch = "arm-v7a"
-
-[Twitter]
-build-mode = "none"
-merge-integrations = true
-excluded-patches = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
-
-[Reddit]
-build-mode = "none"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-
-[Twitch]
-build-mode = "none"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
-[TikTok]
-version = "none"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-
-[Spotify]
-enabled = false
-build-mode = "apk"
-version = "auto"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[Citra]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
-arch = "arm64-v8a"
-
-[Backdrops]
-enabled = false
-uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-
-[WarnWetter]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
-
-[Windyapp]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[TickTick]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-arch = "arm64-v8a"
-
-[Tasker]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
+arch = "arm-v8a"
