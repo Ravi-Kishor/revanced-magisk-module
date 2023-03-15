@@ -1,7 +1,7 @@
 compression-level = 9         # compression level for module zips. between 1 and 9
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 2             # max number of concurrent building jobs
+parallel-jobs = 4             # max number of concurrent building jobs
 build-mindetach-module = false
 
 # add 'enabled = false' for not patching a specific app or remove its entry
@@ -17,6 +17,7 @@ excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layou
 included-patches = "materialyou"
 version = "18.09.39"
 exclusive-patches = false
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Music-arm64]
