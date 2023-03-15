@@ -12,8 +12,8 @@ rv-brand = "ReVanced Extended"
 
 [YouTube]
 build-mode = "apk"
-excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layout-switch translations custom-package-name custom-playback-speed custom-branding-icon-afn-blue custom-branding-icon-afn-red custom-branding-icon-revancify custom-branding-name custom-branding-name hide-my-mix"
-included-patches = "materialyou"
+excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layout-switch translations custom-package-name custom-playback-speed custom-branding-icon-afn-blue custom-branding-icon-afn-red custom-branding-icon-revancify hide-my-mix"
+included-patches = "materialyou custom-branding-name-Revanced"
 version = "18.09.39"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -31,8 +31,8 @@ arch = "arm64-v8a"
 [Music-arm]
 build-mode = "apk"
 app-name = "YT-Music"
-excluded-patches = "custom-branding compact-header tasteBuilder-remover translations-music custom-branding-music-afn-blue custom-branding-music-afn-red custom-branding-music-revancify"
-included-patches = "optimize-resource-music"
+excluded-patches = "custom-branding compact-header tasteBuilder-remover translations-music custom-branding-music-afn-blue custom-branding-music-afn-red custom-branding-music-revancify enable-force-shuffle"
+included-patches = "optimize-resource-music custom-branding-name-Revanced"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm-v7a"
