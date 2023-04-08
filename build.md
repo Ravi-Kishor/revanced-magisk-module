@@ -1,21 +1,18 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.18.apk  
-Patches: revanced-patches-2.168.18.jar  
+Integrations: revanced-integrations-0.101.24.apk  
+Patches: revanced-patches-2.168.24.jar  
 
 YouTube
 ==
-- add `Hide official header` settings https://github.com/inotia00/ReVanced_Extended/issues/445
-- fix: history menu in library sometimes disappears in tablet layout
-- fix: `Hide channel avatar section` setting is not disabled in tablet layout
-- refactor(settings): replaced `adremover` label to `hide` in layout setting
+- fix(return-youtube-dislike): dislikes count changed if switching from video to shorts https://github.com/inotia00/ReVanced_Extended/issues/673
+- refactor: improve weak fingerprints
 - crowdin translation update
-`Arabic`, `Bulgarian`, `French`, `German`, `Italian`, `Japanese`, `Korean`, `Russian`, `Spanish`, `Ukrainian`, `Vietnamese`
+`Arabic`, `Bengali`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Vietnamese`
 
 
-YouTube Music
+ETC
 ==
-- add `enable-compact-dialog` patch
-- add `hide-new-playlist` patch https://github.com/inotia00/ReVanced_Extended/issues/185
+- add support YouTube v18.13.38
 
 
 ※ Compatible ReVanced Manager: v0.0.57
