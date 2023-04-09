@@ -1,18 +1,14 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.24.apk  
-Patches: revanced-patches-2.168.24.jar  
+Integrations: revanced-integrations-0.101.27.apk  
+Patches: revanced-patches-2.168.27.jar  
 
 YouTube
 ==
-- fix(return-youtube-dislike): dislikes count changed if switching from video to shorts https://github.com/inotia00/ReVanced_Extended/issues/673
-- refactor: improve weak fingerprints
+- fix(custom-seekbar-color): app crashes when playing YouTube videos from PlayStore
+- fix(return-youtube-dislike): like/dislike text color changing after clicking https://github.com/inotia00/ReVanced_Extended/issues/677
+- refactor: remove dead code
 - crowdin translation update
-`Arabic`, `Bengali`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Vietnamese`
-
-
-ETC
-==
-- add support YouTube v18.13.38
+`Brazilian`, `Greek`
 
 
 ※ Compatible ReVanced Manager: v0.0.57
