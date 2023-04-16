@@ -1,24 +1,20 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.36.apk  
-Patches: revanced-patches-2.168.36.jar  
+Integrations: revanced-integrations-0.102.1.apk  
+Patches: revanced-patches-2.168.40.jar  
 
 YouTube
 ==
-- fix(default-video-speed): `Disable video speed in live stream` does not work
-- rollback `video-id-hook` patch
+- fix(general-ads): `Hide general ads` hides offline download list
 - crowdin translation update
-`Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Vietnamese`
+`French`, `Polish`
 
 
 YouTube Music
 ==
-- crowdin translation update
-`Vietnamese`
-
-
-ETC
-==
-- add support YouTube v18.14.40
+- add `share-button-hook` patch (Experimental Flags)
+: Replace share button with external download button. The package name of the default downloader can be changed through `options.toml`. (Default: PowerTube)
+- refactor(hide-new-playlist): apply a much safer patching method (also fix https://github.com/inotia00/ReVanced_Extended/issues/685)
+- refactor(hide-upgrade-button): hide upgrade banner from homepage
 
 
 ※ Compatible ReVanced Manager: v0.0.57
