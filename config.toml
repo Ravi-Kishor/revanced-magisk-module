@@ -17,6 +17,7 @@ excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layou
 included-patches = "materialyou theme force-vp9-codec force-premium-heading"                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "18.16.37"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
+patches-version = "v2.168.45"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
 
