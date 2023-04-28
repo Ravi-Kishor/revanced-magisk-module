@@ -7,10 +7,10 @@ build-mindetach-module = true
 
 [YouTube]
 enabled = true
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
-version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
+build-mode = "apk"                                                   # 'both', 'apk' or 'module'
+excluded-patches = "sponsorblock return-youtube-dislike hide-shorts-button layout-switch custom-video-speed custom-branding-icon-afn-blue custom-branding-icon-afn-red custom-branding-icon-revancify custom-branding-name hide-my-mix nable-hdr-auto-brightnes enable-wide-searchbar translations"                                                 # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = "materialyou theme force-vp9-codec force-premium-heading"                                                 # space-seperated patches to include (non-excluded patches are included by default)
+version = "18.16.37"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
