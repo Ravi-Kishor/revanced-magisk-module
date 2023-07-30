@@ -9,9 +9,6 @@ version = "18.29.38"
 included-patches = "materialyou theme force-vp9-codec force-premium-heading optimize-resource"
 excluded-patches = "sponsorblock return-youtube-dislike layout-switch custom-video-speed custom-branding-icon-mmt custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-branding-youtube-name custom-package-name hide-my-mix nable-hdr-auto-brightnes enable-wide-searchbar translations"
 
-[Twitch]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
@@ -22,19 +19,3 @@ apkmirror-arch = "arm-v7a"
 version = "6.12.53"
 included-patches = "background-play bypass-certificate-checks codecs-unlock exclusive-audio-playback hide-get-premium minimized-playback-music music-video-ads upgrade-button-remover vanced-microg-support"
 excluded-patches ="custom-branding-icon-mmt custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-branding-music-name custom-package-name compact-header tasteBuilder-remover translations-music enable-force-shuffle"
-
-[Tiktok]
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-
-[Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-
-[Messenger]
-apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
-
-[Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-
-[Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-
