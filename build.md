@@ -1,4 +1,4 @@
-YTMusic: 6.14.50  
+YTMusic: 6.15.51  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -7,21 +7,24 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.116.2.apk  
-Patches: YT-Advanced/revanced-patches-2.188.0.jar  
+Integrations: YT-Advanced/revanced-integrations-0.117.0.apk  
+Patches: YT-Advanced/revanced-patches-2.188.1.jar  
 
-### [2.188.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.187.3...v2.188.0) (2023-08-14)
-
+#### [2.188.1](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.0...v2.188.1) (2023-08-19)
 
 ### Bug Fixes
 
-* **youtube/save-video-quality:** Video Quality Preset not worked https://github.com/YT-Advanced/YT-Advanced/issues/6
+* **music/hide-upgrade-button:** Not worked correctly https://github.com/YT-Advanced/YT-Advanced/issues/42
 
-* **youtube/hide-suggestion-shelf:** Suggesstion shelf hidden on tablet layout ([d60dd2c](https://github.com/YT-Advanced/ReX-integrations/commit/d60dd2ca8f5cdbdbb952726a48fb7f1ef57d313a))
 
 ### Features
 
-* **youtube:** Add support for `v18.31.37`, `v18.31.38` and `v18.31.40`
+* **youtube:** Alternative video thumbnails [(screenshot)](https://t.me/ReXgroups/6)
 
-###### Secret notification channel: https://t.me/ReXgroups
+* **youtube/hide-product-banner:** Hide new product type (in Store tab) https://github.com/YT-Advanced/YT-Advanced/issues/29
+
+* **youtube/hide-action-button:** Add hide for action button (like Transcript, Chapter, etc) https://github.com/YT-Advanced/RVX_BUG_CENTER/issues/1
+
+
+
 ---  
