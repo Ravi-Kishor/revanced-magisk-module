@@ -1,4 +1,4 @@
-YTMusic: 6.15.51  
+YouTube: 18.32.39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -7,24 +7,27 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.117.0.apk  
-Patches: YT-Advanced/revanced-patches-2.188.1.jar  
+Integrations: YT-Advanced/revanced-integrations-0.117.1.apk  
+Patches: YT-Advanced/revanced-patches-2.188.2.jar  
 
-#### [2.188.1](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.0...v2.188.1) (2023-08-19)
+### [2.188.2](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.1...v2.188.2) (2023-08-23)
+
 
 ### Bug Fixes
 
-* **music/hide-upgrade-button:** Not worked correctly https://github.com/YT-Advanced/YT-Advanced/issues/42
+* **youtube/alternative-video-thumbnails:** Only can be included for Youtube ([7aaba99](https://github.com/YT-Advanced/ReX-patches/commit/7aaba99578a0d99233ee9fc8181663d519cb1c5a))
 
+* **SponsorBlock:** Some setting cannot be imported/exported https://github.com/YT-Advanced/YT-Advanced/issues/47
+
+* **youtube/custom-filter:** Wrong description https://github.com/YT-Advanced/YT-Advanced/issues/55
+
+* **youtube/shorts:** Exclude `optimize-resource` by default https://github.com/YT-Advanced/YT-Advanced/issues/49
 
 ### Features
 
-* **youtube:** Alternative video thumbnails [(screenshot)](https://t.me/ReXgroups/6)
+* **youtube:** Add support `v18.32.36`, `v18.32.39` ([e028129](https://github.com/YT-Advanced/ReX-patches/commit/e0281295854b10a69370b8e51d30c837cb80f802))
 
-* **youtube/hide-product-banner:** Hide new product type (in Store tab) https://github.com/YT-Advanced/YT-Advanced/issues/29
+### Misc
 
-* **youtube/hide-action-button:** Add hide for action button (like Transcript, Chapter, etc) https://github.com/YT-Advanced/RVX_BUG_CENTER/issues/1
-
-
-
+* Update translation
 ---  
