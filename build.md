@@ -1,5 +1,4 @@
-YouTube: 18.34.37  
-Twitter: 10.5.0-release.1  
+YTMusic: 6.17.52  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -7,15 +6,6 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 ---
 Changelog:  
-CLI: j-hc/revanced-cli-3.1.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.117.0.apk  
-Patches: ReVanced/revanced-patches-2.189.0.jar  
-
-### [2.189.0](https://github.com/ReVanced/revanced-patches/compare/v2.188.1...v2.189.0) (2023-08-27)
-### Features
-* Restore previous release ([f7352fe](https://github.com/ReVanced/revanced-patches/commit/f7352feb6e9604162b52072d74310b9e3067bc69))
-
----
 CLI: YT-Advanced/revanced-cli-3.1.0-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.118.0.apk  
 Patches: YT-Advanced/revanced-patches-2.190.0.jar  
