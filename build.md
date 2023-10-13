@@ -33,6 +33,11 @@ YouTube Music
 `Brazilian`, `Chinese Traditional`, `Dutch`, `Greek`, `Indonesian`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
+Etc
+==
+- When updating from YouTube v18.33.40 or lower to YouTube v18.34.xx or later, a clean install is recommended.
+
+
 ※ Compatible ReVanced Manager: [RVX Manager v1.11.3 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.11.3)
 [Crowdin translation]
 - [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
