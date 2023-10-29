@@ -438,7 +438,7 @@ build_rv() {
 	# fi
 
 	if [ "${args[riplib]}" = true ]; then
-		p_patcher_args+=("--rip-lib x86_64 --rip-lib x86")
+		p_patcher_args+=("--rip-lib x86_64 --rip-lib x86 --rip-lib armeabi-v7a")
 		if [ "$arch" = "arm64-v8a" ]; then
 			p_patcher_args+=("--rip-lib armeabi-v7a")
 		elif [ "$arch" = "arm-v7a" ]; then
