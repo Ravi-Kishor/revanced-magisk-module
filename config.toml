@@ -1,7 +1,8 @@
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "apk"
-patches-source = "YT-Advanced/ReX-patches"
+#patches-source = "YT-Advanced/ReX-patches"
+patches-source = "anddea/revanced-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Revanced-Extended"
