@@ -9,9 +9,8 @@ integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "Revanced-Extended"
 version = "19.09.37"
-included-patches = "'Disable Shorts on startup' 'Force premium heading' 'Theme' 'MaterialYou'"
-excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom playback speed' 'Enable debug logging' 'Enable new splash animation' 'Translations' 'Enable wide search bar' 'Return YouTube Dislike' 'SponsorBlock'"
-
+included-patches = "'Disable Shorts on startup' 'Spoof device dimensions' 'Force premium heading' 'Theme' 'MaterialYou'"
+excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom playback speed' 'Enable debug logging' 'Enable new splash animation' 'Translations' 'SponsorBlock' 'Return YouTube Dislike' 'Enable wide search bar' 'Change player flyout panel toggles'"
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 #patches-source = "anddea/revanced-patches"
