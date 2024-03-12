@@ -10,7 +10,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "Revanced-Extended"
 version = "19.09.37"
 included-patches = "'Disable Shorts on startup' 'Force premium heading' 'Theme' 'MaterialYou'"
-excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom playback speed' 'Enable debug logging' 'Enable new splash animation' 'Translations' 'Enable wide search bar' 'Alternative thumbnails' 'Change start page' 'Custom seekbar color' 'Disable HDR video' 'Hide category bar' 'Return YouTube Dislike' 'SponsorBlock'"
+excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom branding name YouTube' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom playback speed' 'Enable debug logging' 'Enable new splash animation' 'Translations' 'Enable wide search bar' 'Return YouTube Dislike' 'SponsorBlock'"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
