@@ -27,22 +27,6 @@ version = "latest"
 arch = "arm64-v8a"
 excluded-patches = "'Certificate spoof' 'Custom branding name YouTube Music' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom branding icon YouTube Music' 'Custom branding icon YouTube Music' 'Custom playback speed' 'Enable custom filter' 'Enable old style library shelf' 'Enable old style miniplayer' 'Enable zen mode' 'Hide category bar' 'Hide new playlist button' 'Hide playlist card' 'Hide radio button' 'Remember playback speed' 'Replace dismiss queue' 'Return YouTube Dislike' 'SponsorBlock' 'Spoof app version' 'Translations'"
 
-[Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-#patches-source = "rufusin/revanced-patches"
-#integrations-source = "rufusin/revanced-integrations"
-#patches-source = "YT-Advanced/ReX-patches"
-#integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "Revanced-Extended-2"
-version = "6.40.52"
-#version = "latest"
-arch = "arm64-v8a"
-excluded-patches = "'Certificate spoof' 'Custom branding name YouTube Music' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom package name' 'Custom branding icon YouTube Music' 'Custom branding icon YouTube Music' 'Custom playback speed' 'Enable custom filter' 'Enable old style library shelf' 'Enable old style miniplayer' 'Enable zen mode' 'Hide category bar' 'Hide new playlist button' 'Hide playlist card' 'Hide radio button' 'Remember playback speed' 'Replace dismiss queue' 'Return YouTube Dislike' 'SponsorBlock' 'Spoof app version' 'Translations'"
-
-
 [Twitter]
 build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
