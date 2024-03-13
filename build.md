@@ -1,5 +1,5 @@
-YouTube: 19.09.37  
 Music: 6.42.55  
+YouTube: 19.09.37  
 Twitter: 10.31.0-release.0  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
