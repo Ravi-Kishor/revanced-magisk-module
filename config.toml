@@ -1,6 +1,6 @@
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "apk"
+build-mode = "both"
 #patches-source = "rufusin/revanced-patches"
 #integrations-source = "rufusin/revanced-integrations"
 patches-source = "anddea/revanced-patches"
@@ -16,6 +16,7 @@ excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
+build-mode = "both"
 #patches-source = "rufusin/revanced-patches"
 #integrations-source = "rufusin/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
