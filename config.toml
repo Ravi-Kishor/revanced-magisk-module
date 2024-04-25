@@ -16,6 +16,7 @@ excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 build-mode = "both"
 #patches-source = "rufusin/revanced-patches"
 #integrations-source = "rufusin/revanced-integrations"
