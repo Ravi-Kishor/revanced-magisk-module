@@ -1,4 +1,4 @@
-Music: 6.48.52  
+Music: 6.49.53  
 YouTube: 19.16.38  
 Twitter: 10.37.0-release.0  
 
