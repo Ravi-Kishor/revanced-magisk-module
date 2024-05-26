@@ -16,7 +16,7 @@ version = "19.20.34"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 included-patches = "'Disable Shorts on startup' 'Force premium heading' 'Theme' 'MaterialYou'"
-excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube' 'Translations' 'SponsorBlock' 'Return YouTube Dislike' 'Enable wide search bar' 'Change start page'"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 
 
 #[Twitter]
