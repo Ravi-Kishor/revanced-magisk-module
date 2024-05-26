@@ -11,14 +11,31 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "apk"
-version = "19.20.34"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+build-mode = "both"
+version = "19.21.34"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 included-patches = "'Disable Shorts on startup' 'Force premium heading' 'Theme' 'MaterialYou'"
 excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
 
 
-#[Twitter]
-#build-mode = "apk"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+[Music-Extended]
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+version = "7.02.51"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+arch = "both"
+included-patches = ""
+excluded-patches = "'Certificate spoof' 'Custom branding name YouTube Music' 'Custom branding icon MMT' 'Custom branding icon Revancify Blue' 'Custom branding icon Revancify Red' 'Custom branding icon YouTube Music' 'Custom branding icon YouTube Music' 'Custom playback speed' 'Enable custom filter' 'Enable old style library shelf' 'Enable old style miniplayer' 'Enable zen mode' 'Hide category bar' 'Hide new playlist button' 'Hide playlist card' 'Hide radio button' 'Remember playback speed' 'Replace dismiss queue' 'Return YouTube Dislike' 'SponsorBlock' 'Spoof app version' 'Translations'"
+
+
+
+
+[Twitter]
+build-mode = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
