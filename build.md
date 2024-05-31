@@ -1,5 +1,5 @@
 Music-Extended: 7.03.51  
-YouTube-Extended: 19.21.37  
+YouTube-Extended: 19.20.34  
 Twitter: 10.42.0-release.0  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
