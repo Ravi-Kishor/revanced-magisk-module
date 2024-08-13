@@ -41,3 +41,7 @@ excluded-patches = "'Certificate spoof' 'Custom branding icon for YouTube Music'
 #[Twitter]
 #build-mode = "apk"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+
+[Photos]
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
